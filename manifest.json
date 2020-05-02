@@ -1,0 +1,62 @@
+{
+    "manifest_version": "1",
+    "name": "Stanford CoreNLP",
+    "version": "3.9.2",
+    "keyname": "stanfordcorenlp",
+    "description": "Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc.",
+    "site": "https://stanfordnlp.github.io/",
+    "author": "RodriguesFAS",
+    "category": "pln",
+    "license": "MIT",
+    "is_activated": true,
+    "analysis": [{
+            "lexical": [{
+                    "name": "Tokenize Annotator",
+                    "keyname": "tokenize",
+                    "description": "https://nlp.stanford.edu/software/tokenizer.shtml"
+                },
+                {
+                    "name": "Sentence Split",
+                    "keyname": "ssplit",
+                    "description": "https://nlp.stanford.edu/software/ssplit.shtml"
+                },
+                {
+                    "name": "Part of Spesch (POS)",
+                    "keyname": "pos",
+                    "description": ""
+                },
+                {
+                    "name": "Lemma Annotator",
+                    "keyname": "lemma",
+                    "description": ""
+                },
+                {
+                    "name": "Named Entity Recognizer (NER)",
+                    "keyname": "ner",
+                    "description": ""
+                },
+                {
+                    "name": "True Case Annotator",
+                    "keyname": "truecase",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "syntatic": [{
+                    "name": "Parse Annotator",
+                    "keyname": "parse",
+                    "description": ""
+                },
+                {
+                    "name": "Dependency Parse Annotator",
+                    "keyname": "depparse",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "semantic": []
+        }
+    ]
+}
