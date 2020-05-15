@@ -1,5 +1,5 @@
 {
-    "manifest_version": "1",
+    "manifest_version": "1.0.1",
     "name": "Stanford CoreNLP",
     "version": "3.9.2",
     "keyname": "stanfordcorenlp",
